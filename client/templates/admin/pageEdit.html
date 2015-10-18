@@ -1,0 +1,22 @@
+<template name="adminPageEdit">
+    <form class="main form page">
+        <div class="form-group">
+            <label class="control-label" for="url">Menu</label>
+            <div class="controls">
+                <input name="menu" id="menu" type="text" value="{{menu}}" placeholder="Your menu" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="title">Content</label>
+            <div class="controls">
+            <input name="content" id="content" type="text" value="{{pageContent}}" placeholder="Name your post" class="form-control"/>
+                    <div id="summernoteContent">
+
+                    </div>
+            </div>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary submit"/>
+        <hr/>
+        <a class="btn btn-danger delete" href="#">Delete page</a>
+    </form>
+</template>
