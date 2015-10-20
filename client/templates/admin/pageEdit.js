@@ -9,28 +9,58 @@ Template.adminPageEdit.rendered = function() {
     $('#summernoteContent').code(Template.instance().data.pageContent);
 }
 
+var savePage = function(e) {
+
+}
+
 Template.adminPageEdit.events({
     'submit form': function(e) {
         e.preventDefault();
 
         var currentPageId = this._id;
 
-        var postProperties = {
+        var page = {
             menu: $(e.target).find('[name=menu]').val(),
             pageContent: $(e.target).find('#summernoteContent').code()
         }
 
-
-        GrandviewPages.update(currentPageId, {$set: postProperties}, function(error) {
-            if (error) {
-                // display the error to the user
-                alert(error.reason);
-            } else {
-                Router.go("adminHome");
-            }
+        Meteor.call('pageUpdate',currentPageId,page,function(error,result){
+          if(error){
+            return alert(error.reason);
+          }
+          
+          Router.go('adminPageEdit');
         });
+        // GrandviewPages.update(currentPageId, {$set: page}, function(error) {
+        //     if (error) {
+        //         // display the error to the user
+        //         alert(error.reason);
+        //     } else {
+        //         Router.go("adminHome");
+        //     }
+        // });
     },
-
+    // 'click .submitclose': function(e) {
+    //   e.preventDefault();
+    //
+    //   var currentPageId = this._id;
+    //
+    //   var page = {
+    //       menu: $(e.target).find('[name=menu]').val(),
+    //       pageContent: $(e.target).find('#summernoteContent').code()
+    //   }
+    //
+    //   Meteor.call('pageUpdate',currentPageId,page,function(error,result){
+    //     if(error){
+    //       return alert(error.reason);
+    //     }
+    //     Router.go('adminHome');
+    //   });
+    //
+    // },
+    'click .cancel': function(e) {
+        Router.go('adminHome');
+    },
     'click .delete': function(e) {
         e.preventDefault();
 
