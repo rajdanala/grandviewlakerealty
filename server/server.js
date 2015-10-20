@@ -47,6 +47,23 @@ Meteor.startup(function () {
       //GrandviewPages.insert(page);
     });
 }
+
+GrandviewListings.remove({});
+if(GrandviewListings.find().count() == 0){
+  var grandviewListings = [
+    {
+      listingId: "12345",
+      address: "<h1>420 E 17th St</h2>",
+      description: "This a greate lake house"
+
+    }
+  ];
+  // loop over each sample poll and insert into database
+  _.each(grandviewListings, function(listing) {
+    GrandviewListings.insert(listing);
+  });
+}
+
 ApplicationController = RouteController.extend({
     layoutTemplate: 'ApplicationLayout',
 
@@ -59,4 +76,9 @@ ApplicationController = RouteController.extend({
       console.log('this should be overridden!');
     }
   });
+});
+
+// Disabling User Registration
+Accounts.config({
+  forbidClientAccountCreation : true
 });

@@ -1,0 +1,48 @@
+<template name="adminListings">
+  <div class="col-sm-3 col-md-2 sidebar">
+    <ul class="nav nav-sidebar">
+      <li><a href="{{pathFor 'adminHome'}}">Pages </a></li>
+      <li class="active"><a href="{{pathFor 'adminListings'}}">Listings<span class="sr-only">(current)</span></a></li>
+    </ul>
+  </div>
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+    <h1 class="page-header">Listings </h1>
+    <div class="pull-right">
+    <a class="btn btn-success addpage fa fa-plus" href="{{pathFor 'adminPageEdit' _id = 'newpage'}}"> Add</a>
+    <a class="btn btn-danger addpage fa fa-trash" href="#"> Remove</a>
+  </div>
+    <!-- <h2 class="sub-header">Section title</h2> -->
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>
+              <div class="checkbox">
+                <input type="checkbox" class="selectall" value="">
+              </div>
+            </th>
+            <th>Listing ID</th>
+            <th>Address</th>
+            <th>Desciption</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+         {{#each listings}}
+           <tr>
+             <td>
+               <div id={{_id}} class="checkbox">
+                 <input type="checkbox" class="selectall" value="{{_id}}">
+               </div>
+             </td>
+             <td>{{listingId}}</td>
+             <td>{{address}}</td>
+             <td>{{description}}</td>
+             <td><a class="btn btn-default pageEdit fa fa fa-pencil-square-o" role="button" href="{{ pathFor 'adminListingEdit'}}">Edit</a> </td>
+           </tr>
+         {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>

@@ -15,5 +15,5 @@ Template.loading.destroyed = function () {
   }
 };
 
-var message = '<p class="loading-message">Loading Message</p>';
+var message = '<p class="loading-message">We Sell Lake Living!</p>';
 var spinner = '<div class="sk-spinner sk-spinner-rotating-plane"></div>';
