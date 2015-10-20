@@ -8,13 +8,24 @@
            </ul>
          </div>
          <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-           <h1 class="page-header">Pages</h1>
+           <h1 class="page-header">Pages </h1>
+           <div class="pull-right">
+           <a class="btn btn-success addpage fa fa-plus" href="{{pathFor 'adminPageEdit' _id = 'newpage'}}"> Add</a>
+           <a class="btn btn-danger addpage fa fa-trash" href="#"> Remove</a>
+         </div>
            <!-- <h2 class="sub-header">Section title</h2> -->
            <div class="table-responsive">
              <table class="table table-striped">
                <thead>
                  <tr>
+                   <th>
+                     <div class="checkbox">
+                       <input type="checkbox" class="selectall" value="">
+                     </div>
+                   </th>
                    <th>Page</th>
+                   <th>SEO Url</th>
+                   <th>Status</th>
                    <th>Author</th>
                    <th>Created</th>
                    <th>Updated</th>
@@ -24,11 +35,18 @@
                <tbody>
                 {{#each pages}}
                   <tr>
+                    <td>
+                      <div id={{_id}} class="checkbox">
+                        <input type="checkbox" class="selectall" value="{{_id}}">
+                      </div>
+                    </td>
                     <td>{{menu}}</td>
+                    <td>{{seourl}}</td>
+                    <td>{{status}}</td>
                     <td>{{author}}</td>
-                    <td>{{submitted}}</td>
+                    <td>{{formatDate submitted}}</td>
                     <td>{{formatDate lastUpdated}}</td>
-                    <td><a class="btn btn-default pageEdit" role="button" href="{{pathFor 'adminPageEdit'}}">Edit</a> </td>
+                    <td><a class="btn btn-default pageEdit fa fa fa-pencil-square-o" role="button" href="{{pathFor 'adminPageEdit'}}">Edit</a> </td>
                   </tr>
                 {{/each}}
                </tbody>

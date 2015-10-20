@@ -5,6 +5,3 @@ Template.adminHome.events({
        console.log("Edit pressed" + this._id);
    }
 });
-Template.registerHelper('formatDate', function(date) {
-  return moment(date).format('MM-DD-YYYY');
-});

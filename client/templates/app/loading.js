@@ -1,7 +1,7 @@
 Template.loading.rendered = function () {
   if ( ! Session.get('loadingSplash') ) {
     this.loading = window.pleaseWait({
-      logo: '/images/Meteor-logo.png',
+      logo: '/images/grandviewlake.jpg',
       backgroundColor: '#7f8c8d',
       loadingHtml: message + spinner
     });

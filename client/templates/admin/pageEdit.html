@@ -7,6 +7,26 @@
             </div>
         </div>
         <div class="form-group">
+            <label class="control-label" for="url">Seo Url</label>
+            <div class="controls">
+                <input name="seourl" id="seourl" type="text" value="{{seourl}}" placeholder="SEO Url" class="form-control"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="url">Status</label>
+            <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Status
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Published</a></li>
+              <li><a href="#">Unpublished</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="form-group">
             <label class="control-label" for="title">Content</label>
             <div class="controls">
             <input name="content" id="content" type="text" value="{{pageContent}}" placeholder="Name your post" class="form-control"/>

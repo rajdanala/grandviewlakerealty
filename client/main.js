@@ -1,1 +1,1 @@
-Meteor.subscribe("grandviewpages");
+//Meteor.subscribe("findGrandviewPageBySeourl",'home');
