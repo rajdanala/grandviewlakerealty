@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3bf85e4-6f47-427d-9949-182c70b83dae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/home/listsheet.html" afterPath="$PROJECT_DIR$/client/templates/home/listsheet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/app.css" afterPath="$PROJECT_DIR$/client/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/helpers/config.js" afterPath="$PROJECT_DIR$/client/helpers/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/listingEdit.html" afterPath="$PROJECT_DIR$/client/templates/admin/listingEdit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/listingEdit.js" afterPath="$PROJECT_DIR$/client/templates/admin/listingEdit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/listings.html" afterPath="$PROJECT_DIR$/client/templates/admin/listings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/pages.js" afterPath="$PROJECT_DIR$/lib/collections/pages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="grandviewlakerealty.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +35,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/admin/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="29" column="151" selection-start-line="29" selection-start-column="151" selection-end-line="29" selection-end-column="151" />
+            <state vertical-scroll-proportion="-30.625">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -38,8 +46,11 @@
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="19" />
-              <folding />
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+              <folding>
+                <marker date="1445437539000" expanded="true" signature="17:104" placeholder="{&quot;layoutTemplate&quot;: 'layout'...}" />
+                <marker date="1445437539000" expanded="true" signature="2651:2653" placeholder="//..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,10 +59,8 @@
         <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <marker date="1445156777000" expanded="true" signature="1330:1505" placeholder="{...}" />
-              </folding>
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,8 +78,8 @@
       <file leaf-file-name="listsheet.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/home/listsheet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.2608695">
-              <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -174,7 +183,7 @@
                 <element signature="n#style#0;n#div#95;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#96;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#97;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#99;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#98;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#100;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#101;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#102;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -285,8 +294,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/app/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -296,7 +305,7 @@
         <entry file="file://$PROJECT_DIR$/client/templates/_partials/adminNav.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -305,8 +314,8 @@
       <file leaf-file-name="pageEdit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state vertical-scroll-proportion="-21.25">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -606,6 +615,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistoryKey" value="pageEdi&#9;FILE&#9;file:///Users/rajeshdanala/projects/websites/grandviewlakerealty/client/templates/admin/pageEdit.html" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Meteor.Meteor Server">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -878,16 +888,16 @@
       <created>1445140035576</created>
       <option name="number" value="Default" />
       <updated>1445140035576</updated>
-      <workItem from="1445140038644" duration="12520000" />
+      <workItem from="1445140038644" duration="12641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12520000" />
+    <option name="totallyTimeSpent" value="12641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="742" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -934,6 +944,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1053,16 +1071,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/admin/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125">
-          <caret line="29" column="151" selection-start-line="29" selection-start-column="151" selection-end-line="29" selection-end-column="151" />
+        <state vertical-scroll-proportion="-30.625">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/app/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1070,7 +1088,7 @@
     <entry file="file://$PROJECT_DIR$/client/templates/_partials/adminNav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1086,18 +1104,19 @@
     <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="19" />
-          <folding />
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <marker date="1445437539000" expanded="true" signature="17:104" placeholder="{&quot;layoutTemplate&quot;: 'layout'...}" />
+            <marker date="1445437539000" expanded="true" signature="2651:2653" placeholder="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1445156777000" expanded="true" signature="1330:1505" placeholder="{...}" />
-          </folding>
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,8 +1130,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1127,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/home/listsheet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2608695">
-          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -1232,7 +1251,7 @@
             <element signature="n#style#0;n#div#95;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#96;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#97;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#99;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#98;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#100;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#101;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#102;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />

@@ -52,10 +52,13 @@ GrandviewListings.remove({});
 if(GrandviewListings.find().count() == 0){
   var grandviewListings = [
     {
-      listingId: "12345",
-      address: "<h1>420 E 17th St</h2>",
-      description: "This a greate lake house"
-
+      mlsId: "21501546",
+      streetaddress: "11440 W Maple Drive",
+      city:"Columbus",
+      state: "IN",
+      zipcode: "47201",
+      description: "This a greate lake house",
+      imageUrl: "/images/listings/21501546.jpg",
     }
   ];
   // loop over each sample poll and insert into database

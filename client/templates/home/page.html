@@ -1,7 +1,10 @@
 <template name="homePage">
 
-<div class="container">
+<div id="ifView" class="container">
+
   <div class="row">
+    {{> homePageAfterLoad}}
+    {{> homePageAfterLoad2}}
     {{{pageContent}}}
   </div>
 </div>

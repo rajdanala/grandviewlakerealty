@@ -1,4 +1,4 @@
-var navbarHeight = $('.navbar').height(); 
+var navbarHeight = $('.navbar').height();
 
 $(window).scroll(function() {
   var navbarColor = "62,195,246";//color attr for rgba
