@@ -4,6 +4,7 @@
   /* Center horizontally the content of the slides */
   /* To be centered, the images of the slides need to be inline */
   /* Maximize the captions in the wrapper */
+  padding-top: 20px;
 }
 .carousel.carousel-fit.slide {
   /* Hide the content outside the carousel when sliding */

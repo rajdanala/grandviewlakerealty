@@ -1,0 +1,90 @@
+<template name="adminListingEdit">
+    <form class="main form page">
+        <!-- MLS & Address -->
+        <div class="row">
+           <div class="col-xs-2">
+             <label class="control-label" for="mlsId">MLS Number</label>
+             <input name="mlsId" id="mlsId" type="text" value="{{mlsId}}" placeholder="MLS#" class="form-control"/>
+           </div>
+           <div class="col-xs-3">
+             <label class="control-label" for="mlsId">Street Address</label>
+            <input name="streetaddress" id="streetaddress" type="text" value="{{streetaddress}}" placeholder="Street" class="form-control"/>
+          </div>
+          <div class="col-xs-2">
+            <label class="control-label" for="mlsId">City</label>
+            <input name="city" id="city" type="text" value="{{city}}" placeholder="City" class="form-control"/>
+          </div>
+          <div class="col-xs-1">
+            <label class="control-label" for="mlsId">State</label>
+            <input name="state" id="state" type="text" value="{{state}}" placeholder="State" class="form-control"/>
+          </div>
+          <div class="col-xs-2">
+            <label class="control-label" for="mlsId">Zipcode</label>
+            <input name="zipcode" id="zipcode" type="text" value="{{zipcode}}" placeholder="Zipcode" class="form-control"/>
+          </div>
+          <div class="col-xs-2">
+            <label class="control-label" for="mlsId">County</label>
+            <input name="county" id="county" type="text" value="{{county}}" placeholder="Zipcode" class="form-control"/>
+          </div>
+      </div>
+      <div class="row">
+         <div class="col-xs-6">
+           <label class="control-label" for="imageUrl">Image</label>
+           <input name="imageUrl" id="imageUrl" type="text" value="{{imageUrl}}" placeholder="Image URL" class="form-control"/>
+         </div>
+      </div>
+      <!-- <div class="row">
+         <div class="col-xs-2">
+           <label class="control-label" for="taxId">Tax ID</label>
+           <input name="taxId" id="taxId" type="text" value="{{taxId}}" placeholder="Tax ID" class="form-control"/>
+         </div>
+         <div class="col-xs-2">
+           <label class="control-label" for="mtaxId">Multiple Tax ID</label>
+          <input name="mtaxId" id="mtaxId" type="text" value="{{mtaxId}}" placeholder="Multiple TaxID" class="form-control"/>
+        </div>
+        <div class="col-xs-2">
+          <label class="control-label" for="area">Area</label>
+          <input name="area" id="area" type="text" value="{{area}}" placeholder="City" class="form-control"/>
+        </div>
+        <div class="col-xs-2">
+          <label class="control-label" for="mlsId">Loc</label>
+          <input name="state" id="state" type="text" value="{{state}}" placeholder="State" class="form-control"/>
+        </div>
+        <div class="col-xs-2">
+          <label class="control-label" for="mlsId">Lot Size</label>
+          <input name="zipcode" id="zipcode" type="text" value="{{zipcode}}" placeholder="Zipcode" class="form-control"/>
+        </div>
+        <div class="col-xs-2">
+          <label class="control-label" for="mlsId">Longitude</label>
+          <input name="zipcode" id="zipcode" type="text" value="{{zipcode}}" placeholder="County" class="form-control"/>
+        </div>
+    </div> -->
+        <div class="form-group">
+            <label class="control-label" for="title">Description</label>
+            <div class="controls">
+                    <div id="summernoteDescription">
+
+                    </div>
+            </div>
+        </div>
+        <!-- image -->
+        <!-- <div class="form-group form-inline">
+            <label class="control-label" for="listingId">MLS Number</label>
+            <div class="controls">
+            <input name="mlsId" id="mlsId" type="text" value="{{mlsId}}" placeholder="MLS#" class="form-control"/>
+          </div>
+            <label class="control-label" for="streetaddress city state zipcode">Address</label>
+            <div class="controls">
+                <input name="streetaddress" id="streetaddress" type="text" value="{{streetaddress}}" placeholder="Street" class="form-control"/>
+                <input name="city" id="city" type="text" value="{{city}}" placeholder="City" class="form-control"/>
+                <input name="state" id="state" type="text" value="{{state}}" placeholder="State" class="form-control"/>
+                <input name="zipcode" id="zipcode" type="text" value="{{zipcode}}" placeholder="Zipcode" class="form-control"/>
+            </div>
+        </div> -->
+        <input type="submit" value="Save" class="btn btn-primary submit"/>
+        <!-- <input type="submit" value="Save & Close" class="btn btn-primary submitclose"/> -->
+        <input type="button" value="Cancel" class="btn cancel"/>
+        <hr/>
+        <a class="btn btn-danger delete" href="#">Delete Listing</a>
+    </form>
+</template>
