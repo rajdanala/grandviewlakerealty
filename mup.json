@@ -27,7 +27,7 @@
   "appName": "grandviewlakerealty",
 
   // Location of app (local directory)
-  "app": "/Users/rajeshdanala/projects/meteor-workspace/basicrouting",
+  "app": "/Users/rajeshdanala/projects/websites/grandviewlakerealty",
 
   // Configure environment
   "env": {
