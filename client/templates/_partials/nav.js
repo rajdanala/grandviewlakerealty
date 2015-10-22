@@ -1,3 +1,8 @@
 Template.nav.helpers({
-menus : function () { console.log(GrandviewPages.find()); return GrandviewPages.find();}
+menus : function () { return GrandviewPages.find({},
+                                   {
+                                    sort  : {menuorder: 1}
+                                   }
+                                  );
+                      }
 });
