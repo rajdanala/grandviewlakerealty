@@ -16,7 +16,7 @@ body {
   padding-top: 100px;
 }
 .bgimage {
-background-image: url(/images/grandviewrealty-background.png)no-repeat center center;
+background-image: url(/images/grandviewrealty-background1.png)no-repeat center center;
 background-size: cover;
 }
 .bgimage-inside {
@@ -24,8 +24,8 @@ padding-top: 37.36%; /* this is actually (426/1140)*100 */
 }
 
 .maincontent {
-  padding-top: 170px;
-  background-image: url(/images/grandviewrealty-background.png)no-repeat center center;
+  padding-top: 220px;
+  background-image: url(/images/grandviewrealty-background1.png);
   background-size: 100%;
   padding-left: 5px;
   padding-right: 5px;
