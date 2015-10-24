@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3bf85e4-6f47-427d-9949-182c70b83dae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/app.css" afterPath="$PROJECT_DIR$/client/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/helpers/config.js" afterPath="$PROJECT_DIR$/client/helpers/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/listingEdit.html" afterPath="$PROJECT_DIR$/client/templates/admin/listingEdit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/listingEdit.js" afterPath="$PROJECT_DIR$/client/templates/admin/listingEdit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin/listings.html" afterPath="$PROJECT_DIR$/client/templates/admin/listings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/pages.js" afterPath="$PROJECT_DIR$/lib/collections/pages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+    <list default="true" id="1d25f6a2-7b48-4a01-807d-7cd828a7ad89" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="grandviewlakerealty.iws" />
@@ -32,290 +26,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.625">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-              <folding>
-                <marker date="1445437539000" expanded="true" signature="17:104" placeholder="{&quot;layoutTemplate&quot;: 'layout'...}" />
-                <marker date="1445437539000" expanded="true" signature="2651:2653" placeholder="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageEdit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mls-all-listings.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/home/mls-all-listings.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listsheet.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/templates/home/listsheet.html">
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#14;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#15;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#16;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#17;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#18;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#19;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#20;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#21;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#22;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#23;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#24;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#25;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#25;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#26;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#27;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#28;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#29;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#30;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#31;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#32;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#33;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#34;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#35;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#36;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#37;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#38;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#39;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#40;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#41;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#42;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#43;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#44;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#45;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#46;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#47;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#48;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#49;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#50;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#51;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#52;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#53;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#54;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#55;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#56;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#57;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#58;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#59;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#60;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#61;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#62;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#63;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#64;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#65;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#66;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#67;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#68;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#69;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#70;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#71;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#72;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#73;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#74;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#75;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#76;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#77;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#78;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#79;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#80;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#81;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#82;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#83;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#84;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#85;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#86;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#87;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#88;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#89;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#90;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#91;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#92;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#93;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#94;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#95;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#96;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#97;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#98;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#100;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#101;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#102;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#103;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#104;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#105;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#106;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#107;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#108;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#109;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#110;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#111;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#112;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#113;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#114;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#115;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#116;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#117;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#118;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#119;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#120;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#121;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#122;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#123;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#124;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#125;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#126;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#127;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#128;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#129;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#130;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#131;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#132;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#133;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#134;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#135;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#136;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#137;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#138;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#139;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#140;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#141;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#142;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#143;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#144;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#145;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#146;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#147;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#148;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#149;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#150;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#151;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#152;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#153;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#154;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#155;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#156;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#157;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#158;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#159;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#160;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#161;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#162;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#163;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#164;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#165;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#166;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#167;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#168;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#169;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#170;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#171;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#172;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#173;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#174;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#175;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#176;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#177;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#178;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#179;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#180;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#181;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/home/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminLayout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/app/adminLayout.html">
+      <file leaf-file-name="pageAfterLoad.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/app/layout.html">
+      <file leaf-file-name="pageAfterLoad.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminNav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/_partials/adminNav.html">
+      <file leaf-file-name="loading.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/templates/app/loading.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageEdit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.5068493">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -329,27 +84,6 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/client/templates/home/contact.html" />
-        <option value="$PROJECT_DIR$/collections/pages.js" />
-        <option value="$PROJECT_DIR$/server/grandviewpages.js" />
-        <option value="$PROJECT_DIR$/lib/collections/pages.js" />
-        <option value="$PROJECT_DIR$/server/publish.js" />
-        <option value="$PROJECT_DIR$/client/main.js" />
-        <option value="$PROJECT_DIR$/client/templates/_partials/nav.js" />
-        <option value="$PROJECT_DIR$/client/templates/_partials/nav.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/home.js" />
-        <option value="$PROJECT_DIR$/client/templates/admin/home.html" />
-        <option value="$PROJECT_DIR$/client/templates/app/adminLayout.html" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
-        <option value="$PROJECT_DIR$/client/templates/admin/pageEdit.html" />
-        <option value="$PROJECT_DIR$/client/templates/admin/pageEdit.js" />
-        <option value="$PROJECT_DIR$/client/templates/home/listsheet.html" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -394,9 +128,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -425,70 +156,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -508,28 +175,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grandviewlakerealty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,7 +218,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -600,11 +249,15 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="debugger.hotswap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -614,10 +267,11 @@
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pageEdi&#9;FILE&#9;file:///Users/rajeshdanala/projects/websites/grandviewlakerealty/client/templates/admin/pageEdit.html" />
-    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Meteor.Meteor Server">
+  <component name="RunManager" selected="Meteor.meteor-server">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -637,91 +291,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -744,14 +313,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -760,39 +322,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -822,55 +351,36 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
     <configuration default="true" type="meteor-app-runner" factoryName="Meteor">
       <option name="exePath" value="/usr/local/bin/meteor" />
       <option name="startBrowserSettings">
-        <browser with-js-debugger="true" url="http://localhost:3000" />
+        <browser start="true" with-js-debugger="true" url="http://localhost:3000" />
       </option>
       <meteor-runner-state>
         <startBrowserSettings>
-          <browser with-js-debugger="true" url="http://localhost:3000" />
+          <browser start="true" with-js-debugger="true" url="http://localhost:3000" />
         </startBrowserSettings>
       </meteor-runner-state>
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+    <configuration default="false" name="meteor-server JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3000">
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Meteor Server" type="meteor-app-runner" factoryName="Meteor">
+    <configuration default="false" name="meteor-server" type="meteor-app-runner" factoryName="Meteor">
       <option name="exePath" value="/usr/local/bin/meteor" />
       <option name="startBrowserSettings">
-        <browser with-js-debugger="true" url="http://localhost:3000" />
+        <browser start="true" with-js-debugger="true" url="http://localhost:3000" />
       </option>
       <meteor-runner-state>
         <startBrowserSettings>
-          <browser with-js-debugger="true" url="http://localhost:3000" />
+          <browser start="true" with-js-debugger="true" url="http://localhost:3000" />
         </startBrowserSettings>
       </meteor-runner-state>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Meteor.Meteor Server" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.meteor-server JavaScript" />
+      <item index="1" class="java.lang.String" itemvalue="Meteor.meteor-server" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -884,74 +394,53 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3bf85e4-6f47-427d-9949-182c70b83dae" name="Default" comment="" />
-      <created>1445140035576</created>
+      <changelist id="1d25f6a2-7b48-4a01-807d-7cd828a7ad89" name="Default" comment="" />
+      <created>1445650364817</created>
       <option name="number" value="Default" />
-      <updated>1445140035576</updated>
-      <workItem from="1445140038644" duration="12641000" />
+      <updated>1445650364817</updated>
+      <workItem from="1445650369781" duration="1583000" />
+      <workItem from="1445651997364" duration="280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12641000" />
+    <option name="totallyTimeSpent" value="1863000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="742" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16074313" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16074313" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -960,31 +449,49 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/client/templates/_partials/nav.js</url>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/templates/app/loading.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/templates/home/contact.html">
+    <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -997,7 +504,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/scripts/nav.js">
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1005,39 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/_partials/nav.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1045,82 +527,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/tiny.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/tiny.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/_partials/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8333335">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.625">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/app/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/_partials/adminNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/app/adminLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding>
-            <marker date="1445437539000" expanded="true" signature="17:104" placeholder="{&quot;layoutTemplate&quot;: 'layout'...}" />
-            <marker date="1445437539000" expanded="true" signature="2651:2653" placeholder="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/mls-all-listings.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1128,215 +535,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/admin/pageEdit.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/app/web/home/pageAfterLoad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/about.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/app/loading.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5068493">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/home/listsheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#14;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#16;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#18;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#19;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#20;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#21;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#22;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#23;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#24;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#25;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#25;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#26;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#27;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#28;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#29;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#30;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#31;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#32;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#33;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#34;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#35;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#36;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#37;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#38;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#39;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#40;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#41;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#42;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#43;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#44;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#45;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#46;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#47;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#48;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#49;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#50;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#51;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#52;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#53;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#54;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#55;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#56;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#57;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#58;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#59;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#60;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#61;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#62;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#63;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#64;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#65;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#66;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#67;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#68;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#69;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#70;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#71;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#72;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#73;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#74;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#75;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#76;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#77;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#78;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#79;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#80;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#81;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#82;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#83;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#84;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#85;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#86;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#87;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#88;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#89;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#90;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#91;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#92;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#93;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#94;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#95;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#96;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#97;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#98;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#100;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#101;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#102;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#103;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#104;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#105;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#106;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#107;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#108;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#109;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#110;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#111;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#112;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#113;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#114;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#115;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#116;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#117;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#118;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#119;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#120;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#121;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#122;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#123;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#124;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#125;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#126;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#127;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#128;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#129;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#130;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#131;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#132;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#133;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#134;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#135;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#136;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#137;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#138;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#139;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#140;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#141;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#142;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#143;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#144;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#145;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#146;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#147;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#148;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#149;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#150;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#151;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#152;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#153;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#154;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#155;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#156;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#157;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#158;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#159;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#160;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#161;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#162;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#163;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#164;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#165;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#166;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#167;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#168;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#169;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#170;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#171;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#172;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#173;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#174;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#175;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#176;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#177;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#178;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#179;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#180;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#181;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>grandviewlakerealty</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>meteor-packages-auto-import-browser</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
