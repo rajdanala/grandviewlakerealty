@@ -48,7 +48,7 @@ Meteor.startup(function () {
     });
 }
 
-GrandviewListings.remove({});
+//GrandviewListings.remove({});
 if(GrandviewListings.find().count() == 0){
   var grandviewListings = [
     {

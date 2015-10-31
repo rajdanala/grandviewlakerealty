@@ -3,7 +3,7 @@ Template.adminPageEdit.rendered = function() {
     //console.log("Calling REndered" + (this.data === null)?"":this.data.pageContent:"");
 
     $('#summernoteContent').summernote({
-        height: 200,   // set editable area's height
+        height: 400,   // set editable area's height
         focus: true    // set focus editable area after Initialize summernote
     });
     if(this.data === null){
