@@ -1,8 +1,6 @@
 
 Template.homePage.helpers({
-  //  pageContent : function () { return "test";}
-    //pageContent: function () {GrandviewPages.find();}
-    //test : function() {return console.log(this.data);}
+
 
 });
 Template.homePage.rendered = function() {
@@ -139,21 +137,6 @@ Template.homePage.rendered = function() {
             return this.length;};}
     var getQueryParamValue=com.deconcept.util.getRequestParameter;
     var FlashObject=com.deconcept.FlashObject;
-    function move_menu(num)
-    {
-        switch(num)
-
-        {
-
-            case 1:window.location="gr-listings.htm" ;break;
-
-            case 2:window.location="services" ;break;
-
-            case 3:window.location="aboutus" ;break;
-
-        }
-    }
-
 
     var fo = new FlashObject("swf/index.swf", "index", "615", "289", "7");
     fo.addParam("wmode", "transparent");

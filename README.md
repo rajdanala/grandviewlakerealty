@@ -22,3 +22,14 @@ $ mongoimport -h localhost:27017 --db grandviewlakerealty --collection grandview
 $ mongoimport -h localhost:27017 --db grandviewlakerealty --collection users --type json --file ~/users.json
 
 ```
+
+## sql equivalent of mongo
+```shell
+
+-- SQL
+-- select _id,menuorder from grandviewpages orderby menuorder;
+
+-- mongo
+db.grandviewpages.find( {},{menu:1,menuorder:1} ).sort({menuorder:1});
+
+```shell

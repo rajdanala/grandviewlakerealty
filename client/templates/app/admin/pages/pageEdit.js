@@ -24,7 +24,7 @@ Template.adminPageEdit.events({
         var page = {
             menu: $(e.target).find('[name=menu]').val(),
             seourl: $(e.target).find('[name=seourl]').val(),
-            menuorder: $(e.target).find('[name=menuorder]').val(),
+            menuorder: Number($(e.target).find('[name=menuorder]').val()),
             pageContent: $(e.target).find('#summernoteContent').code()
         }
         if(currentPageId === undefined) {
