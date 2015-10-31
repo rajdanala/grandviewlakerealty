@@ -78,12 +78,15 @@ Template.adminPageEdit.events({
     },
     'click .delete': function(e) {
         e.preventDefault();
-
-        //if (confirm("Delete this post?")) {
-        //    var currentPostId = this._id;
-        //    Posts.remove(currentPostId);
-        //    Router.go('postsList');
-        //}
+        if (confirm("Delete this post?" )) {
+            var currentPageId = this._id;
+            Meteor.call('pageRemove',currentPageId,function(error,result){
+            if(error){
+                return alert(error.reason);
+            }
+            Router.go('adminHome');
+            });
+        }
     }
 });
 Template.adminPageEdit.helpers({

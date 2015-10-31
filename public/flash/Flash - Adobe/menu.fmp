@@ -1,0 +1,87 @@
+<TEMPLATE APPNAME="FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="7" SWF_NAME="color" SUB_LEVEL="0" CATALOG="2" SWF_SHOWNAME="color" WIDTH="529" HEIGHT="94" BGCOLOR="clWhite" FLASHBGCOLOR="clWhite" TRANSPARENT="true" AUTOSIZE="true">
+	<GROUP_ATTRIBUTE>
+		<PARAM ID="1" DF_VALUE="new item"/>
+		<PARAM ID="2" DF_VALUE=""/>
+		<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>
+	</GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<GROUP_PARAM ID="40">
+			<PARAM ID="41" DF_VALUE="Horizontal,Vertical"/>
+			<PARAM ID="42" DF_VALUE="false"/>
+			<PARAM ID="43" DF_VALUE="onRollOver,onPress"/>
+			<PARAM ID="44" DF_VALUE="105"/>
+			<PARAM ID="45" DF_VALUE="30"/>
+			<PARAM ID="46" DF_VALUE="0"/>
+			<PARAM ID="47" DF_VALUE="0"/>
+			<PARAM ID="48" DF_VALUE="$00BDCECE"/>
+			<PARAM ID="49" DF_VALUE="clBlack"/>
+			<PARAM ID="50" DF_VALUE="clBlack"/>
+			<PARAM ID="51" DF_VALUE="true"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="60">
+			<PARAM ID="61" DF_VALUE="false"/>
+			<PARAM ID="62" DF_VALUE="$00BDCECE"/>
+			<PARAM ID="63" DF_VALUE="clWhite"/>
+			<PARAM ID="64" DF_VALUE="$00999999"/>
+			<PARAM ID="65" DF_VALUE="$00cccccc"/>
+			<PARAM ID="66" DF_VALUE="$000066ff"/>
+			<PARAM ID="67" DF_VALUE="$000033ff"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="70">
+			<PARAM ID="71" DF_VALUE="clBlack"/>
+			<PARAM ID="72" DF_VALUE="clWhite"/>
+			<PARAM ID="73" DF_VALUE="clWhite"/>
+			<PARAM ID="74" DF_VALUE="Verdana"/>
+			<PARAM ID="75" DF_VALUE="11"/>
+			<PARAM ID="76" DF_VALUE="left,center,right"/>
+			<PARAM ID="77" DF_VALUE="10"/>
+			<PARAM ID="78" DF_VALUE="10"/>
+			<PARAM ID="79" DF_VALUE="false"/>
+			<PARAM ID="80" DF_VALUE="false"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="90">
+			<PARAM ID="91" DF_VALUE="false"/>
+			<PARAM ID="92" DF_VALUE="clGray"/>
+			<PARAM ID="93" DF_VALUE="0"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="100">
+			<PARAM ID="101" DF_VALUE="true"/>
+			<PARAM ID="102" DF_VALUE="clGray"/>
+			<PARAM ID="103" DF_VALUE="1"/>
+			<PARAM ID="104" DF_VALUE="true"/>
+			<PARAM ID="105" DF_VALUE="Out,In"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="110">
+			<PARAM ID="111" DF_VALUE="true"/>
+			<PARAM ID="112" DF_VALUE="4"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="120">
+			<PARAM ID="121" DF_VALUE="true"/>
+			<PARAM ID="122" DF_VALUE="40"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="130">
+			<PARAM ID="131" DF_VALUE="true"/>
+			<PARAM ID="132" DF_VALUE="1000"/>
+		</GROUP_PARAM>
+		<PARAM ID="133" DF_VALUE="Down,Up"/>
+		<PARAM ID="134" DF_VALUE="2000"/>
+		<PARAM ID="135" DF_VALUE="2000"/>
+		<PARAM ID="136" DF_VALUE=""/>
+		<PARAM ID="137" DF_VALUE="false"/>
+		<PARAM ID="150" DF_VALUE="false"/>
+		<PARAM ID="20" DF_VALUE="100"/>
+		<PARAM ID="253" DF_VALUE=""/>
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="529"/>
+		<PARAM ID="141" DF_VALUE="94"/>
+		<PARAM ID="142" DF_VALUE="true"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clWhite"/>
+		<PARAM ID="145" DF_VALUE="true"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="Home" target="index.htm"/><item name="About Us" target="aboutus.htm"/><item name="Properties for Sale" target="listings.htm"><item name="MLS 20901273"/><item name="MLS 20900687"/></item><item name="Lots for Sale"><item name="MLS 20900856"/></item><item name="Services" target="services.htm"/></MENU>
+</TEMPLATE>

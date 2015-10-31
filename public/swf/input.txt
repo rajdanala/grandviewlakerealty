@@ -1,0 +1,22 @@
+﻿&t1=Grandview Realty
+
+&t2=“We Sell Lake Living”
+
+
+&t3=You can easily modify this page by selecting the text and replacing it with your own content. 
+
+&menu1=Grandview Properties
+
+&menu2=Our Services
+
+&menu3=About Us
+
+
+## Explanation of menu  ##
+
+&menu description1=Looking for a lake retreat or full time residence? Look no further!
+
+&menu description2=At Grandview Realty, you’ll see why, “We Sell Lake Living".
+
+&menu description3=Grandview Realty serves the needs of the people of Grandview Lake and surrounding lake developments.
+
