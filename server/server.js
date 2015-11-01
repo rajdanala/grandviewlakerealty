@@ -85,3 +85,10 @@ ApplicationController = RouteController.extend({
 Accounts.config({
   forbidClientAccountCreation : true
 });
+
+if(Meteor.isServer){
+  Images.allow({
+    'insert': function () {return true;},
+    'download': function () {return true;}
+  });
+};

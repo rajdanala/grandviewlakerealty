@@ -26,3 +26,5 @@ accounts-password
 check
 momentjs:moment
 jquery
+cfs:standard-packages
+cfs:filesystem

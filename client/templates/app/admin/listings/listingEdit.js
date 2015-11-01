@@ -1,7 +1,12 @@
 Template.adminListingEdit.rendered = function() {
     $('#summernoteDescription').summernote({
         height: 600,   // set editable area's height
-        focus: true    // set focus editable area after Initialize summernote
+        focus: true,   // set focus editable area after Initialize summernote
+        onImageUpload: function(files) {
+            console.log('image upload:', files);
+            // upload image to server and create imgNode...
+            //$summernote.summernote('insertNode', imgNode);
+        }
     });
     if(this.data === null || this.data === undefined){
         $('#summernoteDescription').code("");
