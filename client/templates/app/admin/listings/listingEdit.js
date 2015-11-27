@@ -58,5 +58,22 @@ Template.adminListingEdit.events({
     },
     'click .delete': function(e) {
         e.preventDefault();
+    },
+    'click .selectedImage':function(e){
+        e.preventDefault();
+        console.log($(e.target).attr("id"));
+        //$(e.target).find('[name=imageUrl]').val($(e.target).attr("id"));
+        $("#imageUrl").val($(e.target).attr("id"));
+        $("#myModal").modal('toggle');
+        console.log($(e.target));
     }
 });
+
+Template.adminListingEdit.helpers({
+
+    test : function () {
+        console.log(this.listraj);
+        return "test";
+    }
+});
+

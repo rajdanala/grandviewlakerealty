@@ -1,6 +1,8 @@
 <template name="adminListingEdit">
+    {{#each listraj}}
     <form class="main form page">
         <!-- MLS & Address -->
+
         <div class="row">
            <div class="col-xs-2">
              <label class="control-label" for="mlsId">MLS Number</label>
@@ -32,7 +34,47 @@
            <label class="control-label" for="imageUrl">Image</label>
            <input name="imageUrl" id="imageUrl" type="text" value="{{imageUrl}}" placeholder="Image URL" class="form-control"/>
          </div>
+          <a href="#" class="thumbnail">
+              <img src="{{url }}" alt=""  />
+          </a>
       </div>
+
+        <div class="row">
+            <div class="col-xs-6">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Listing Thumbnail Picture  {{test}}
+        </button>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Listing Thumbnail Picture</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            {{#each images}}
+                                <div class="col-xs-6 col-md-3">
+                                    <a href="#" class="thumbnail">
+                                        <img src="{{this.url }}" id="{{this._id}}" class="selectedImage" />
+                                    </a>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
       <!-- <div class="row">
          <div class="col-xs-2">
            <label class="control-label" for="taxId">Tax ID</label>
@@ -87,4 +129,5 @@
         <hr/>
         <a class="btn btn-danger delete" href="#">Delete Listing</a>
     </form>
+{{/each}}
 </template>
