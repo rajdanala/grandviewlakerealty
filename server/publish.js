@@ -29,20 +29,25 @@
  // Meteor.publish("findGrandviewPageBySeourl", function(menu){
  //   return GrandviewPages.findOne({seourl:menu});
  // });
-
+//process.cwd() + '/../' + '/web.browser/app/' + 'images/listings/'
  Meteor.publish('listingimages', function() {
   var self = this;
   var fs = Npm.require("fs");
   var meteorRoot = fs.realpathSync( process.cwd() + '/../' );
-  console.log(meteorRoot);
+  //console.log(">>>On Server>>>>>>>>"+meteorRoot);
   var publicPath = meteorRoot + '/web.browser/app/';
-  var listingImages = publicPath + '/listings/';
+    //console.log(">>>On Server>>>>>>>>"+publicPath);
+  var listingsPath =   publicPath + 'images/listings/';
+  var listingImages = fs.readdirSync(listingsPath);
+  //console.log(">>>On Server>>>>>>>>"+listingImages);
   _.each(listingImages, function(listingImage) {
     // if(icon.indexOf('icon-') == 0) {
     //   self.added('icons', icon, { 'url': '/icons/' + icon });
     // }
-    if(listingImage.endsWith(".png")){
-        self.added('listingimages', listingImage, { 'url': '/listings/' + listingImage });
+
+    if(listingImage.endsWith(".jpg") || listingImage.endsWith(".jpeg") || listingImage.endsWith(".gif")|| listingImage.endsWith(".png") ){
+      //console.log(">>>listingImage>>>>>>>>"+listingImage);
+        self.added('listingimages', listingImage, { 'url': '/images/listings/' + listingImage });
     }
   });
   this.ready();

@@ -35,7 +35,7 @@
            <input name="imageUrl" id="imageUrl" type="text" value="{{imageUrl}}" placeholder="Image URL" class="form-control"/>
          </div>
           <a href="#" class="thumbnail">
-              <img src="{{thumbImageUrl}}" alt=""  />
+              <img id="thumbImageUrl" src="{{thumbImageUrl}}" alt=""  />
           </a>
       </div>
 
@@ -61,7 +61,7 @@
                             {{#each images}}
                                 <div class="col-xs-6 col-md-3">
                                     <a href="#" class="thumbnail">
-                                        <img src="{{this.url }}" id="{{this._id}}" class="selectedImage" />
+                                        <img src="{{this.url }}" id="{{this.url}}" class="selectedImage" />
                                     </a>
                                 </div>
                             {{/each}}

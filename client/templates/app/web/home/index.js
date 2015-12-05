@@ -167,9 +167,18 @@ Template.homeIndex.onCreated(
 Template.homeIndex.events({
     'click': function(){
         console.log("You clicked the flash");
+        move_menu();
     }
 });
 
 Template.homeIndex.helpers({
-  
+
 })
+
+move_menu = function(num) {
+    switch(num){
+    case 1:window.location="listings" ;break;
+    case 2:window.location="services" ;break;
+    case 3:window.location="aboutus" ;break;
+    }
+}

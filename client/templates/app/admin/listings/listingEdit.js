@@ -64,6 +64,7 @@ Template.adminListingEdit.events({
         console.log($(e.target).attr("id"));
         //$(e.target).find('[name=imageUrl]').val($(e.target).attr("id"));
         $("#imageUrl").val($(e.target).attr("id"));
+        $("#thumbImageUrl").attr("src",$(e.target).attr("id"));
         $("#myModal").modal('toggle');
         console.log($(e.target));
     }
@@ -72,6 +73,7 @@ Template.adminListingEdit.events({
 Template.adminListingEdit.onCreated(function() {
   this.subscribe("grandviewlistings");
   this.subscribe("images");
+  this.subscribe("listingimages");
   var thumbImageUrl = "";
   var imageId = "";
 
@@ -95,10 +97,10 @@ Template.adminListingEdit.helpers({
     thumbImageUrl: function() {
       console.log("2nd Image Id"+imageId);
       console.log(Images.findOne({"_id":imageId}));
-      return Images.findOne({"_id":imageId});
+      return imageId;
     },
     images: function() {
-
+      return ListingImages.find();
     }
 
 });
