@@ -28,3 +28,7 @@ momentjs:moment
 jquery
 cfs:standard-packages
 cfs:filesystem
+meteorhacks:npm
+
+
+npm-container

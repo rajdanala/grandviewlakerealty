@@ -169,3 +169,7 @@ Template.homeIndex.events({
         console.log("You clicked the flash");
     }
 });
+
+Template.homeIndex.helpers({
+  
+})

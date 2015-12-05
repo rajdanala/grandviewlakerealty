@@ -91,4 +91,9 @@ if(Meteor.isServer){
     'insert': function () {return true;},
     'download': function () {return true;}
   });
+  Ads.allow({
+    'insert': function () {return true;},
+    'update': function () {return true;},
+    'download': function () {return true;}
+  });
 };

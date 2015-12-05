@@ -69,11 +69,36 @@ Template.adminListingEdit.events({
     }
 });
 
-Template.adminListingEdit.helpers({
+Template.adminListingEdit.onCreated(function() {
+  this.subscribe("grandviewlistings");
+  this.subscribe("images");
+  var thumbImageUrl = "";
+  var imageId = "";
 
-    test : function () {
-        console.log(this.listraj);
-        return "test";
-    }
 });
 
+Template.adminListingEdit.helpers({
+    listing : function() {
+      var listing = GrandviewListings.findOne({"_id":Router.current().params._id});
+      imageId = listing.imageUrl;
+      console.log("Image Id"+imageId);
+
+      // var meteorRoot =   FS.realpathSync( process.cwd() + '/../' );
+      //   console.log("Meteor Root "+meteorRoot);
+      // var publicPath = meteorRoot + '/web.browser/app/';
+      //   console.log("public path "+publicPath);
+      // var listingsPath = publicPath + '/listings/';
+      //   console.log("listings"+listingsPath);
+
+       return listing;
+    },
+    thumbImageUrl: function() {
+      console.log("2nd Image Id"+imageId);
+      console.log(Images.findOne({"_id":imageId}));
+      return Images.findOne({"_id":imageId});
+    },
+    images: function() {
+
+    }
+
+});

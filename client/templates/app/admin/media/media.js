@@ -1,9 +1,12 @@
 Template.adminMediaListings.helpers({
     images: function () {
-        return Images.find(); // Where Images is an FS.Collection instance
+        return ListingImages.find(); // Where Images is an FS.Collection instance
     }
 });
+Template.adminListingEdit.onCreated(function() {
+  this.subscribe("listingimages");
 
+});
 Template.adminMediaListings.events({
     'change .myFileInput': function(event, template) {
         FS.Utility.eachFile(event, function(file) {

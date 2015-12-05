@@ -1,5 +1,5 @@
 <template name="adminListingEdit">
-    {{#each listraj}}
+    {{#with listing}}
     <form class="main form page">
         <!-- MLS & Address -->
 
@@ -35,7 +35,7 @@
            <input name="imageUrl" id="imageUrl" type="text" value="{{imageUrl}}" placeholder="Image URL" class="form-control"/>
          </div>
           <a href="#" class="thumbnail">
-              <img src="{{url }}" alt=""  />
+              <img src="{{thumbImageUrl}}" alt=""  />
           </a>
       </div>
 
@@ -129,5 +129,5 @@
         <hr/>
         <a class="btn btn-danger delete" href="#">Delete Listing</a>
     </form>
-{{/each}}
+{{/with}}
 </template>

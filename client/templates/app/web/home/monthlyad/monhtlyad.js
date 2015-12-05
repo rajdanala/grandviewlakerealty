@@ -1,0 +1,4 @@
+
+Template.monthlyAd.helpers({
+
+});
