@@ -29,8 +29,11 @@
                         {{#each images}}
                             <div class="col-xs-6 col-md-3">
                                 <a href="#" class="thumbnail">
-                                    <img src="{{this.url }}" alt="" /> {{_id}}
+                                    <img src="{{this.url }}" alt="" /> {{name}}
                                 </a>
+                                {{#if _id}}
+                                    <a class="btn btn-danger deleteUpload">Delete</a>
+                                {{/if}}
                             </div>
                         {{/each}}
                     </div>

@@ -31,5 +31,10 @@ Template.adminMediaListings.events({
                 // Inserted new doc with ID fileObj._id, and kicked off the data upload using HTTP
             });
         });
+    },
+    'click .deleteUpload':function() {
+    if (confirm('Are you sure?')) {
+      Meteor.call('deleteFile', this._id);
     }
+  }
 });
