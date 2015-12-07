@@ -1,11 +1,20 @@
 Template.adminMediaListings.helpers({
     images: function () {
-        return ListingImages.find(); // Where Images is an FS.Collection instance
+        return Uploads.find(); // Where Images is an FS.Collection instance
+    },
+    uploadCallback: function() {
+      return {
+        finished: function(fileInfo, formData) {
+          if (formData && formData._id != null) {
+            Items.update({_id: formData._id}, { $push: { uploads: fileInfo }});
+          }
+        }
+      }
     }
 });
 Template.adminMediaListings.onCreated(function() {
-  this.subscribe("listingimages");
-
+  //this.subscribe("listingimages");
+  this.subscribe("uploads");
 });
 Template.adminMediaListings.events({
     'change .myFileInput': function(event, template) {

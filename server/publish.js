@@ -48,7 +48,29 @@
     if(listingImage.endsWith(".jpg") || listingImage.endsWith(".jpeg") || listingImage.endsWith(".gif")|| listingImage.endsWith(".png") ){
       //console.log(">>>listingImage>>>>>>>>"+listingImage);
         self.added('listingimages', listingImage, { 'url': '/images/listings/' + listingImage });
+
+
+
+            Images.insert(file, function (err, fileObj) {
+                if (err){
+                    alert('Error Uploading' + err);
+                } else {
+                    // handle success depending what you need to do
+                    alert('Success Uploading');
+
+            }
+                // Inserted new doc with ID fileObj._id, and kicked off the data upload using HTTP
+            });
+
     }
   });
   this.ready();
 });
+
+Meteor.publish('items', function() {
+  return Items.find();
+});
+
+Meteor.publish('uploads', function() {
+  return Uploads.find();
+})

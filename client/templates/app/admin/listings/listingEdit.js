@@ -96,7 +96,6 @@ Template.adminListingEdit.helpers({
     },
     thumbImageUrl: function() {
       console.log("2nd Image Id"+imageId);
-      console.log(Images.findOne({"_id":imageId}));
       return imageId;
     },
     images: function() {

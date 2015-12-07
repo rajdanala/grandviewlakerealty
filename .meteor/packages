@@ -32,3 +32,5 @@ meteorhacks:npm
 
 
 npm-container
+tomi:upload-server
+tomi:upload-jquery
