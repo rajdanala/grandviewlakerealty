@@ -1,8 +1,8 @@
 <template name="homeIndex">
 
   <div class="container">
-  <div class="row">
-    <div class="maincontent">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <!-- <div class="maincontent"> -->
 
 
 
@@ -51,22 +51,59 @@
 		<!--</a> &ndash;&gt;-->
 
 <!--</div>-->
-        <div class="container">
-        <div class="row hidden-xs hidden-sm">
-        <div id="flashcontent" class="embed-responsive embed-responsive-16by9">
+        <!-- <div class="container"> -->
+        <div class="col-xs-12 col-sm-9 col-md-8">
+          <div class="center-block row hidden-xs hidden-sm">
+            <div id="flashcontent" class="embed-responsive embed-responsive-16by9">
 
-            <a href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
-                <img border="0" src="images/noflash1.jpg" width="629" height="302"/> </a>
-        </div>
-        </div>
-        </div>
+                <a href="http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
+                    <img border="0" src="images/noflash1.jpg" width="700" height="302"/> </a>
+            </div>
+          </div>
+        <!-- </div> -->
 
-      <div class="container">
-      <div class="row">
-          {{{pageContent}}}
-      </div>
-      </div>
-    </div>
+        <!-- <div class="container"> -->
+          <div class="row">
+              {{{pageContent}}}
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 cold-md-4 sidebar-offcanvas" id="sidebar">
+         <div class="nav nav-pills nav-stacked">
+            <li role="presentation"><a class="btn btn-info" href="#">Grandview Realty Properties</a></li>
+            <li role="presentation"><a class="btn btn-success"  href="#">Other Properties</a></li>
+            <li role="presentation"><a class="btn btn-info"  href="#">Search Community Listings</a></li>
+            <li role="presentation"><a class="btn btn-success"  href="#">Search MLS # or Address</a></li>
+         </div>
+         <hr>
+         <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Grandview Realty</h3>
+          </div>
+          <div class="panel-body">
+            <div class="list-group">
+              <a href="#" class="list-group-item ">
+                <p class="list-group-item-text">First in "home sales" on Grandview
+                Lake in 2008, 2009 and total properties
+                sold 2010 through 2014.</p>
+              </a>
+              <a href="#" class="list-group-item ">
+                <p class="list-group-item-text">Grandview Realty has the highest "Average Sale Price" over all other realtors for properties sold in Bartholomew County.</p>
+              </a>
+              <a href="#" class="list-group-item ">
+                <p class="list-group-item-text">Grandview Realty is known for bringing buyers to the lake and matching them
+                  with the right Grandview Lake Property</p>
+              </a>
+              <a href="#" class="list-group-item ">
+                <p class="list-group-item-text">At Grandview Realty, "We Sell
+                    Lake Living!"</p>
+              </a>
+            </div>
+          </div>
+        </div>
+         </div><!--/.sidebar-offcanvas-->
+
+        <!-- </div> -->
+    <!-- </div> -->
     </div>
     </div>
 </template>

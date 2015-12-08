@@ -64,7 +64,7 @@ h4 {
 [class*="col-"] {
   padding-top: 15px;
   padding-bottom: 15px;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
 }
 
 hr {
@@ -208,4 +208,53 @@ hr {
     border-top: 1px solid #4F8A10 !important;
     margin-bottom:2px !important;
     margin-top:2px !important;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
 }
