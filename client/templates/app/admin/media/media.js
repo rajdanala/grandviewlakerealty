@@ -1,3 +1,4 @@
+
 Template.adminMediaListings.helpers({
     images: function () {
         return Uploads.find(); // Where Images is an FS.Collection instance
@@ -10,6 +11,9 @@ Template.adminMediaListings.helpers({
           }
         }
       }
+    },
+    myFormData: function() {
+      return { directoryName: 'images', prefix: this._id, _id: this._id }
     }
 });
 Template.adminMediaListings.onCreated(function() {

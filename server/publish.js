@@ -11,9 +11,7 @@
  Meteor.publish("images", function(){
      return Images.find();
  });
- Meteor.publish("ads", function(){
-     return Ads.find();
- });
+
 
  Meteor.publish("listingsAndImage", function(listingId){
      var listingCursor = GrandviewListings.find({_id:listingId});
@@ -69,6 +67,9 @@
 
 Meteor.publish('items', function() {
   return Items.find();
+});
+Meteor.publish('monthlyads', function() {
+  return MonthlyAds.find();
 });
 
 Meteor.publish('uploads', function() {

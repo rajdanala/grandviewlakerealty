@@ -8,7 +8,7 @@
   ],
 
   // Install MongoDB in the server, does not destroy local MongoDB on future setup
-  "setupMongo": false,
+  "setupMongo": true,
 
   // WARNING: Node.js is required! Only skip if you already have Node.js installed on server.
   "setupNode": true,
@@ -31,10 +31,11 @@
 
   // Configure environment
   "env": {
-    "PORT": "4000",
+    "PORT": "5000",
     "USERDOWN_UID": "www-data",
     "USERDOWN_GID": "www-data",
-    "ROOT_URL": "http://grandviewlakerealty.rajdanala.com"
+    "ROOT_URL": "http://grandviewlakerealty.rajdanala.com",
+    "NODE_ENV": "production"
   },
 
 

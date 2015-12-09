@@ -1,6 +1,14 @@
+Template.adminAdsListings.onCreated(function() {
+  //this.subscribe("listingimages");
+  this.subscribe("uploads");
+  this.subscribe("monthlyads");
+});
 Template.adminAdsListings.helpers({
     ads: function () {
-        return Ads.find(); // Where Images is an FS.Collection instance
+        return MonthlyAds.find(); // Where Images is an FS.Collection instance
+    },
+    myFormData: function() {
+      return { directoryName: 'monthlyads', prefix: this._id, _id: this._id, filetype: "monthlyad" }
     },
     'checked': function(){
         var isDefaultAd = this.defaultAd;
@@ -9,8 +17,28 @@ Template.adminAdsListings.helpers({
         } else {
             return "";
         }
+    },
+    insertMonhtlyAd: function(){
+      return {
+        finished: function(index,fileInfo,templateContext) {
+          if (fileInfo != null) {
+            var monthlyad = {
+              url: fileInfo.url,
+              name: fileInfo.name
+            }
+            Meteor.call('insertMonthlyAd',monthlyad,function(error,result){
+              if(error){
+                return alert(error.reason);
+              }
+            });
+            console.log("inserting MonthlyAds inside finished "+ fileInfo.url);
+          }
+        }
+      }
     }
 });
+
+
 // Template.settings.rendered = function () {
 //   $(":checkbox").each(function(){
 //     console.log(this.id);
@@ -22,19 +50,7 @@ Template.adminAdsListings.helpers({
 
 Template.adminAdsListings.events({
     'change .myFileInput': function(event, template) {
-        FS.Utility.eachFile(event, function(file) {
 
-            Ads.insert(file, function (err, fileObj) {
-                if (err){
-                    alert('Error Uploading' + err);
-                } else {
-                    // handle success depending what you need to do
-                    alert('Success Uploading');
-
-            }
-                // Inserted new doc with ID fileObj._id, and kicked off the data upload using HTTP
-            });
-        });
     },
     'click input': function(event, template) {
 

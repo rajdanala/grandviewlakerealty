@@ -14,6 +14,20 @@ Meteor.methods({
 })
 
 
+Meteor.methods({
+  insertMonthlyAd: function(newAd) {
+    check(newAd.name, String);
+    check(newAd.url, String);
+    MonthlyAds.insert(newAd);
+  },
+  updateMonhtlyAd: function(adid,ad){
+    check(name, String);
+    check(checked, String);
+    MonthlyAds.update(adid,ad);
+
+  }
+})
+
 // Listings
 var INSERT_FIELDS = {
   mlsId: String,

@@ -5,11 +5,13 @@ Meteor.startup(function () {
       Items.insert({name: 'My Item', uploads: []});
     }
 
+
     UploadServer.init({
       tmpDir: process.env.PWD + '/.uploads/tmp',
       uploadDir: process.env.PWD + '/.uploads/',
       checkCreateDirectories: true,
       getDirectory: function(fileInfo, formData) {
+        console.log("Server Upload Server content type "+ formData.directoryName);
         if (formData && formData.directoryName != null) {
           return formData.directoryName;
         }
@@ -24,6 +26,13 @@ Meteor.startup(function () {
       finished: function(fileInfo, formData) {
         if (formData && formData._id != null) {
           Items.update({_id: formData._id}, { $push: { uploads: fileInfo }});
+        }
+        if (formData && formData._id != null && formData.directoryName != null && formData.directoryName === "monthlyads") {
+          var monthlyads = "";
+          monthlyads.url = fileInfo.url;
+          monthlyads.name = fileInfo.name;
+          MonthlyAds.insert(monthlyads);
+          console.log("inserting MonthlyAds inside finished "+ fileInfo.url);
         }
       }
     });
@@ -126,10 +135,4 @@ Uploads.allow({
   //   'insert': function () {return true;},
   //   'download': function () {return true;}
   // });
-
-  Ads.allow({
-    'insert': function () {return true;},
-    'update': function () {return true;},
-    'download': function () {return true;}
-  });
 };
