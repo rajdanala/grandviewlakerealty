@@ -1,5 +1,18 @@
 
 Meteor.startup(function () {
+
+  //sitemaps
+  sitemaps.add('/Sitemap.xml', function() {
+    var posts = GrandviewPages.find({}).fetch();
+    var out = [];
+    _.each(posts, function(post) {
+    out.push({
+    page: post.seourl
+    });
+    });
+    return out;
+  });
+
   // init items collection
     if (Items.find().count() == 0) {
       Items.insert({name: 'My Item', uploads: []});
