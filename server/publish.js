@@ -73,5 +73,5 @@ Meteor.publish('monthlyads', function() {
 });
 
 Meteor.publish('uploads', function() {
-  return Uploads.find();
+  return Uploads.find({'subDirectory':'images'});
 })

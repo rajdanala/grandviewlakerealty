@@ -40,13 +40,13 @@ Meteor.startup(function () {
         if (formData && formData._id != null) {
           Items.update({_id: formData._id}, { $push: { uploads: fileInfo }});
         }
-        if (formData && formData._id != null && formData.directoryName != null && formData.directoryName === "monthlyads") {
-          var monthlyads = "";
-          monthlyads.url = fileInfo.url;
-          monthlyads.name = fileInfo.name;
-          MonthlyAds.insert(monthlyads);
-          console.log("inserting MonthlyAds inside finished "+ fileInfo.url);
-        }
+        // if (formData && formData._id != null && formData.directoryName != null && formData.directoryName === "monthlyads") {
+        //   var monthlyads = "";
+        //   monthlyads.url = fileInfo.url;
+        //   monthlyads.name = fileInfo.name;
+        //   MonthlyAds.insert(monthlyads);
+        //   console.log("inserting MonthlyAds inside finished "+ fileInfo.url);
+        // }
       }
     });
   //GrandviewPages.remove({});

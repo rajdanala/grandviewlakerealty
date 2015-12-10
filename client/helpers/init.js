@@ -1,5 +1,8 @@
 Meteor.startup(function() {
-  if(Meteor.isClient){
+  Uploader.finished = function(index, file) {
+    Uploads.insert(file);
+  }
+
     return SEO.config({
     auto: {
       twitter: false,
@@ -11,8 +14,6 @@ Meteor.startup(function() {
     'description': "Grandview Realty is known for bringing buyers to the lake and matching them with the right Grandview Lake Property"
     }
     });
-  }
-  Uploader.finished = function(index, file) {
-    Uploads.insert(file);
-  }
+  
+
 });

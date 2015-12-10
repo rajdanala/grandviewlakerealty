@@ -1,5 +1,6 @@
 {
+  "somePrivateKey": "123456789",
   "public": {
-
+    "port": "5000"
   }
 }

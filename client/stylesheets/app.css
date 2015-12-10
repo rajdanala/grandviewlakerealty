@@ -12,19 +12,19 @@ body {
     /*padding-top: 50px;*/
     /*position: relative;*/
 }
-.fullbodypadding {
+/*.fullbodypadding {
   padding-top: 100px;
-}
+}*/
 .bgimage {
-/*background-image: url(/images/grandviewrealty-background1.png)no-repeat center center;*/
-/*background-size: cover;*/
+background-image: url(/images/grandviewrealty-background1.png);
+background-size: 100%;
 }
 .bgimage-inside {
-padding-top: 37.36%; /* this is actually (426/1140)*100 */
+padding-top: 22%; /* this is actually (426/1140)*100 */
 }
 
 .maincontent {
-  padding-top: 20px;
+  padding-top: 0px;
   /*background-image: url(/images/grandviewrealty-background1.png);*/
   /*background-size: 100%;*/
   /*padding-left: 5px;*/
@@ -257,4 +257,45 @@ hr {
     top: 0;
     width: 50%; /* 6 columns */
   }
+}
+
+
+
+.navbar-inverse {
+  background-color: #000;
+}
+.navbar-inner{
+    /*height: 90px*/
+    min-height: 60px
+    }
+.navbar .brand{
+    padding: 0 10px;
+}
+.navbar .nav > li > a {
+    padding: 20px 15px;
+    /*padding: 35px 15px;*/
+}
+.navbar .btn-navbar {
+    /*margin-right: 0px;*/
+    margin-top:15px;
+}
+.brand img{
+    margin-top: 5px
+}
+@media (max-width:768px) {
+    .brand img{
+        margin-bottom: 5px
+    }
+    .navbar .btn-navbar{
+        /*margin-right: -15px;*/
+    }
+    .navbar .nav > li > a {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 300px) {
+    .bgimage {
+        background: #cccccc;
+    }
 }
