@@ -16,24 +16,29 @@ Template.adminPageEdit.rendered = function() {
 }
 
 Template.adminPageEdit.events({
-    'submit form': function(e) {
+    "click input[type=submit]": function(e) {
         e.preventDefault();
-
+        var buttonPressed = $(e.target).prop("id");
         var currentPageId = this._id;
-
+        alert( $("input[name=seourl]").val() );
         var page = {
-            menu: $(e.target).find('[name=menu]').val(),
-            seourl: $(e.target).find('[name=seourl]').val(),
-            menuorder: Number($(e.target).find('[name=menuorder]').val()),
-            pageContent: $(e.target).find('#summernoteContent').code()
+            menu: $('input[name=menu]').val(),
+            seourl: $('input[name=seourl]').val(),
+            menuorder: Number($('input[name=menuorder]').val()),
+            pageContent: $('#summernoteContent').code(),
+            sideImage: '/images/listings/20801480.jpg'
         }
         if(currentPageId === undefined) {
           Meteor.call('pageInsert',page,function(error,result){
             if(error){
               return alert(error.reason);
             }
-
-            Router.go('adminHome');
+            if( buttonPressed === 'saveclose'){
+              Router.go('adminHome');
+            }
+            else{
+                Router.go('adminPageEdit');
+            }
           });
         }
         else{
@@ -42,7 +47,15 @@ Template.adminPageEdit.events({
               return alert(error.reason);
             }
 
-            Router.go('adminPageEdit');
+
+               // You can get its name like this
+               if( buttonPressed === 'saveclose'){
+                    Router.go('adminHome');
+               }
+               else{
+                  Router.go('adminPageEdit');
+                }
+
           });
 
         }
@@ -55,24 +68,24 @@ Template.adminPageEdit.events({
         //     }
         // });
     },
-    // 'click .submitclose': function(e) {
-    //   e.preventDefault();
-    //
-    //   var currentPageId = this._id;
-    //
-    //   var page = {
-    //       menu: $(e.target).find('[name=menu]').val(),
-    //       pageContent: $(e.target).find('#summernoteContent').code()
-    //   }
-    //
-    //   Meteor.call('pageUpdate',currentPageId,page,function(error,result){
-    //     if(error){
-    //       return alert(error.reason);
-    //     }
-    //     Router.go('adminHome');
-    //   });
-    //
-    // },
+     //'click .submitclose': function(e) {
+      // e.preventDefault();
+      //
+      // var currentPageId = this._id;
+      // alert($(e.target).form);
+      // var page = {
+      //     menu: $(e.target).find('[name=menu]').val(),
+      //     pageContent: $(e.target).find('#summernoteContent').code()
+      // }
+      // Router.go('adminHome');
+      // Meteor.call('pageUpdate',currentPageId,page,function(error,result){
+      //   if(error){
+      //     return alert(error.reason);
+      //   }
+      //   Router.go('adminHome');
+      // });
+
+    //},
     'click .cancel': function(e) {
         Router.go('adminHome');
     },

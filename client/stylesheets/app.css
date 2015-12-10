@@ -16,11 +16,11 @@ body {
   padding-top: 100px;
 }*/
 .bgimage {
-background-image: url(/images/grandviewrealty-background1.png);
+background-image: url(/images/grandviewrealty-background5.png);
 background-size: 100%;
 }
 .bgimage-inside {
-padding-top: 22%; /* this is actually (426/1140)*100 */
+padding-top: 28%; /* this is actually (426/1140)*100 */
 }
 
 .maincontent {

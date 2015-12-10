@@ -33,20 +33,16 @@
          <div class="col-xs-6">
            <label class="control-label" for="imageUrl">Image</label>
            <input name="imageUrl" id="imageUrl" type="text" value="{{imageUrl}}" placeholder="Image URL" class="form-control"/>
+           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+               Select Thumbnail Picture
+           </button>
+           <a href="#" class="thumbnail">
+             <img class="img-thumbnail" id="thumbImageUrl" src="{{imageUrl}}" alt=""  />
+           </a>
          </div>
-          <a href="#" class="thumbnail">
-              <img id="thumbImageUrl" src="{{thumbImageUrl}}" alt=""  />
-          </a>
       </div>
 
-        <div class="row">
-            <div class="col-xs-6">
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-            Listing Thumbnail Picture  {{test}}
-        </button>
-            </div>
-        </div>
+
 
         <!-- Modal -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

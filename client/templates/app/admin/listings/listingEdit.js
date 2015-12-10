@@ -1,3 +1,4 @@
+
 Template.adminListingEdit.rendered = function() {
     $('#summernoteDescription').summernote({
         height: 600,   // set editable area's height
@@ -74,6 +75,7 @@ Template.adminListingEdit.onCreated(function() {
   this.subscribe("grandviewlistings");
   this.subscribe("images");
   this.subscribe("listingimages");
+  this.subscribe("uploads");
   var thumbImageUrl = "";
   var imageId = "";
 
@@ -99,7 +101,7 @@ Template.adminListingEdit.helpers({
       return imageId;
     },
     images: function() {
-      return ListingImages.find();
+      return Uploads.find();
     }
 
 });
