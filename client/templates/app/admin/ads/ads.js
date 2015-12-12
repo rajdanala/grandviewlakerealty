@@ -60,7 +60,7 @@ Template.adminAdsListings.events({
     },
     "click .toggle-checked": function () {
      // Set the checked property to the opposite of its current value
-     Ads.update(this._id, {
+     MonthlyAds.update(this._id, {
         $set: {defaultAd: ! this.defaultAd}
       });
    }

@@ -22,7 +22,7 @@
                               {{> upload_bootstrap multiple=true fileTypes='pdf/*' formData=myFormData callbacks=insertMonhtlyAd }}
 
 
-                                <input name="myFileInput" id="myFileInput" type="file" placeholder="Upload image" class="myFileInput"/>
+                                <!-- <input name="myFileInput" id="myFileInput" type="file" placeholder="Upload image" class="myFileInput"/> -->
                             </div>
                         </div>
                     </form>
@@ -30,15 +30,19 @@
                          <form class="defaultCheck">
                         {{#each ads}}
                             <div class="col-xs-6 col-md-3">
-                                <a href="#" >
-                                    <iframe src="{{this.url}}" frameborder="0"></iframe>
+                                    <iframe class=" well embed-responsive embed-responsive-4by3" src="{{this.url}}" frameborder="0">
+
+                                    </iframe>
                                     <label> <input type="checkbox" checked="{{defaultAd}}" class="toggle-checked"  name={{this.name}} > {{this.name}} </label>
-                                </a>
+
+                                    {{#if _id}}
+                                        <a class="btn btn-danger deleteUpload">Delete</a>
+                                    {{/if}}
                             </div>
                         {{/each}}
                       </form>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         {{#each ads}}
                             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                               <iframe src="{{this.url}}" frameborder="1"></iframe>
@@ -47,7 +51,7 @@
                                 {{/if}}
                             </div>
                         {{/each}}
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

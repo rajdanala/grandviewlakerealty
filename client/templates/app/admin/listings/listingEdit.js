@@ -48,7 +48,7 @@ Template.adminListingEdit.events({
               return alert(error.reason);
             }
 
-            Router.go('adminListingEdit', {_id: listingId});
+            Router.go('adminListings', {_id: listingId});
           });
 
         }
@@ -74,7 +74,7 @@ Template.adminListingEdit.events({
 Template.adminListingEdit.onCreated(function() {
   this.subscribe("grandviewlistings");
   this.subscribe("images");
-  this.subscribe("listingimages");
+  //this.subscribe("listingimages");
   this.subscribe("uploads");
   var thumbImageUrl = "";
   var imageId = "";
@@ -84,8 +84,15 @@ Template.adminListingEdit.onCreated(function() {
 Template.adminListingEdit.helpers({
     listing : function() {
       var listing = GrandviewListings.findOne({"_id":Router.current().params._id});
-      imageId = listing.imageUrl;
-      console.log("Image Id"+imageId);
+      if (Router.current().params._id != 'newpage'){
+        imageId = listing.imageUrl;
+        $('#summernoteDescription').code(listing.description);
+      }
+      else{
+        listing = {
+        };
+      }
+      // console.log("Image Id"+imageId);
 
       // var meteorRoot =   FS.realpathSync( process.cwd() + '/../' );
       //   console.log("Meteor Root "+meteorRoot);
@@ -97,7 +104,7 @@ Template.adminListingEdit.helpers({
        return listing;
     },
     thumbImageUrl: function() {
-      console.log("2nd Image Id"+imageId);
+      //console.log("2nd Image Id"+imageId);
       return imageId;
     },
     images: function() {

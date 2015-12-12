@@ -144,6 +144,14 @@ Uploads.allow({
     return true
   }
 });
+MonthlyAds.allow({
+  insert: function (userId, doc) {
+    return true;
+  },
+  update: function (userId, doc, fields, modifier) {
+    return true;
+  }
+});
   // Images.allow({
   //   'insert': function () {return true;},
   //   'download': function () {return true;}
