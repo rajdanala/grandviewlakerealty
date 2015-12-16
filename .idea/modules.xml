@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/grandviewlakerealty.iml" filepath="$PROJECT_DIR$/.idea/grandviewlakerealty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gv-flow.iml" filepath="$PROJECT_DIR$/.idea/gv-flow.iml" />
     </modules>
   </component>
 </project>

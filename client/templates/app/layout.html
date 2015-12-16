@@ -1,9 +1,15 @@
 
 <template name="layout">
-{{> nav}}
-<div class="container">
-    <div class="row">
-        {{>yield}}
-    </div>
-</div>
+    <header> <h1>Grandview Realty</h1>
+    {{>Template.dynamic template=nav}}
+    </header>
+    <main>
+        {{>Template.dynamic template=content }}
+    </main>
+<!--{{> nav}}-->
+<!--<div class="container">-->
+    <!--<div class="row">-->
+        <!--{{>yield}}-->
+    <!--</div>-->
+<!--</div>-->
 </template>

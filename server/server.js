@@ -92,7 +92,7 @@ Meteor.startup(function () {
     ];
     // loop over each sample poll and insert into database
     _.each(grandviewPages, function(page) {
-      //GrandviewPages.insert(page);
+     // GrandviewPages.insert(page);
     });
 }
 
@@ -115,18 +115,18 @@ if(GrandviewListings.find().count() == 0){
   });
 }
 
-ApplicationController = RouteController.extend({
-    layoutTemplate: 'ApplicationLayout',
-
-    onBeforeAction: function () {
-      console.log('app before hook!');
-      this.next();
-    },
-
-    action: function () {
-      console.log('this should be overridden!');
-    }
-  });
+//ApplicationController = RouteController.extend({
+//    layoutTemplate: 'ApplicationLayout',
+//
+//    onBeforeAction: function () {
+//      console.log('app before hook!');
+//      this.next();
+//    },
+//
+//    action: function () {
+//      console.log('this should be overridden!');
+//    }
+//  });
 });
 
 // Disabling User Registration

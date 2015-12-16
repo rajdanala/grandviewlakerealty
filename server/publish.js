@@ -2,6 +2,10 @@
    return GrandviewPages.find({});
  });
 
+ Meteor.publish("grandviewpage", function(pageUrl){
+     return GrandviewPages.find({seourl:pageUrl});
+ });
+
  Meteor.publish("grandviewlistings", function(){
    return GrandviewListings.find();
  });

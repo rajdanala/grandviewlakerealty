@@ -15,7 +15,6 @@ standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-iron:router
 ejson
 mrt:bootstrap-3
 pcel:loading
@@ -34,6 +33,9 @@ meteorhacks:npm
 npm-container
 tomi:upload-server
 tomi:upload-jquery
-manuelschoebel:ms-seo
 gadicohen:sitemaps
 reactive-dict
+kadira:flow-router
+kadira:blaze-layout
+meteorhacks:subs-manager
+reactive-var

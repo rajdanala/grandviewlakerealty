@@ -9,17 +9,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{pathFor 'homeIndex'}}">
-            <img width="75px" src="/images/grandviewlakesmall.jpg">
-          </a>
+          <!--<a class="navbar-brand" href="{{pathFor 'homeIndex'}}">-->
+            <!--<img width="75px" src="/images/grandviewlakesmall.jpg">-->
+          <!--</a>-->
         </div>
         <div id="navbar" class="collapse navbar-collapse">
+  {{#if menuReady}}
           <ul class="nav navbar-nav">
               {{#each menus}}
-                <li><a href="{{pathFor 'homePage' menu = this.seourl}}">{{menu}}</a> </li>
+                <!--<li><a href="{{pathFor 'homePage' menu = this.seourl}}">{{menu}}</a> </li>-->
+                  <li><a href={{seoPath}}>{{menu}}</a> </li>
             {{/each}}
           </ul>
-
+{{/if}}
         </div>
       </div>
     </nav>

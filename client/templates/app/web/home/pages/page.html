@@ -1,29 +1,36 @@
 <template name="homePage">
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-9 col-md-8 ">
-      <div>
-          {{> homePageAfterLoad}}
-          {{> homePageAfterLoad2}}
-          <div class="maincontent">
-          {{{pageContent}}}
-          </div>
-       </div>
-    </div>
-    <div class="col-xs-6 col-sm-3 cold-md-4 sidebar-offcanvas" id="sidebar">
-     <img src={{sideImage}}>
-    </div>
-  </div>
-</div>
-    <script>
-        function move_menu(num) {
-            switch(num){
-                case 1:window.location="listings" ;break;
-                case 2:window.location="services" ;break;
-                case 3:window.location="aboutus" ;break;
-            }
-        }
-    </script>
+    <p>
+{{#if pageReady}}
+    {{#with page}}
+        {{{pageContent}}}
+        {{/with}}
+ {{/if}}
+    </p>
+<!--<div class="container">-->
+  <!--<div class="row">-->
+    <!--<div class="col-xs-12 col-sm-9 col-md-8 ">-->
+      <!--<div>-->
+          <!--{{> homePageAfterLoad}}-->
+          <!--{{> homePageAfterLoad2}}-->
+          <!--<div class="maincontent">-->
+          <!--{{{pageContent}}}-->
+          <!--</div>-->
+       <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-xs-6 col-sm-3 cold-md-4 sidebar-offcanvas" id="sidebar">-->
+     <!--<img src={{sideImage}}>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+    <!--<script>-->
+        <!--function move_menu(num) {-->
+            <!--switch(num){-->
+                <!--case 1:window.location="listings" ;break;-->
+                <!--case 2:window.location="services" ;break;-->
+                <!--case 3:window.location="aboutus" ;break;-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
 
 </template>

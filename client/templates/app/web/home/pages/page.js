@@ -1,6 +1,25 @@
+PageSubs = new SubsManager();
+
+Template.homePage.onCreated(function(){
+   var self = this;
+    self.ready = new ReactiveVar();
+    self.autorun(function(){
+        var pageUrl = FlowRouter.getParam('pageUrl');
+        var handle = PageSubs.subscribe('grandviewpage',pageUrl);
+        self.ready.set(handle.ready());
+    });
+});
 
 Template.homePage.helpers({
 
+    page: function() {
+        var pageUrl = FlowRouter.getParam('pageUrl');
+        var page = GrandviewPages.findOne({seourl:pageUrl} || {});
+        return page;
+    },
+    pageReady: function() {
+        return Template.instance().ready.get();
+    }
 
 });
 Template.homePage.rendered = function() {
