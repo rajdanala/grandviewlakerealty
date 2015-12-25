@@ -9,5 +9,11 @@ menus : function () { return GrandviewPages.find({},
         equals: function(nav) {
 
         }
+});
 
+
+Template.nav.events({
+  'click': function(e) {
+    console.log('menu clicked>>>>>>>');
+  }
 });

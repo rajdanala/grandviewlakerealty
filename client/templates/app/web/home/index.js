@@ -1,184 +1,306 @@
 Template.homeIndex.rendered = function() {
-    if(typeof com=="undefined"){var com=new Object();}
-    if(typeof com.deconcept=="undefined"){com.deconcept=new Object();}
-    if(typeof com.deconcept.util=="undefined"){com.deconcept.util=new Object();}
-    if(typeof com.deconcept.FlashObjectUtil=="undefined"){com.deconcept.FlashObjectUtil=new Object();}
-    com.deconcept.FlashObject=function(_1,id,w,h,_5,c,_7,_8,_9,_a,_b){
-        if(!document.createElement||!document.getElementById){return;}
-        this.DETECT_KEY=_b?_b:"detectflash";
-        this.skipDetect=com.deconcept.util.getRequestParameter(this.DETECT_KEY);
-        this.params=new Object();
-        this.variables=new Object();
-        this.attributes=new Array();
-        this.useExpressInstall=_7;
-        if(_1){this.setAttribute("swf",_1);}
-        if(id){this.setAttribute("id",id);}
-        if(w){this.setAttribute("width",w);}
-        if(h){this.setAttribute("height",h);}
-        if(_5){this.setAttribute("version",new com.deconcept.PlayerVersion(_5.toString().split(".")));}
-        this.installedVer=com.deconcept.FlashObjectUtil.getPlayerVersion(this.getAttribute("version"),_7);
-        if(c){this.addParam("bgcolor",c);}
-        var q=_8?_8:"high";
-        this.addParam("quality",q);
-        var _d=(_9)?_9:window.location;
-        this.setAttribute("xiRedirectUrl",_d);
-        this.setAttribute("redirectUrl","");
-        if(_a){this.setAttribute("redirectUrl",_a);}
-    };
-    com.deconcept.FlashObject.prototype={setAttribute:function(_e,_f){
-        this.attributes[_e]=_f;
-    },getAttribute:function(_10){
-        return this.attributes[_10];
-    },addParam:function(_11,_12){
-        this.params[_11]=_12;
-    },getParams:function(){
-        return this.params;
-    },addVariable:function(_13,_14){
-        this.variables[_13]=_14;
-    },getVariable:function(_15){
-        return this.variables[_15];
-    },getVariables:function(){
-        return this.variables;
-    },createParamTag:function(n,v){
-        var p=document.createElement("param");
-        p.setAttribute("name",n);
-        p.setAttribute("value",v);
-        return p;
-    },getVariablePairs:function(){
-        var _19=new Array();
-        var key;
-        var _1b=this.getVariables();
-        for(key in _1b){_19.push(key+"="+_1b[key]);}
-        return _19;
-    },getFlashHTML:function(){
-        var _1c="";
-        if(navigator.plugins&&navigator.mimeTypes&&navigator.mimeTypes.length){
-            if(this.getAttribute("doExpressInstall")){
-                this.addVariable("MMplayerType","PlugIn");
-            }
-            _1c="<embed class=\"embed-responsive-item\" type=\"application/x-shockwave-flash\" src=\""+this.getAttribute("swf")+"\" width=\""+this.getAttribute("width")+"\" height=\""+this.getAttribute("height")+"\"";
-            _1c+=" id=\""+this.getAttribute("id")+"\" name=\""+this.getAttribute("id")+"\" ";
-            var _1d=this.getParams();
-            for(var key in _1d){_1c+=[key]+"=\""+_1d[key]+"\" ";}
-            var _1f=this.getVariablePairs().join("&");
-            if(_1f.length>0){_1c+="flashvars=\""+_1f+"\"";}
-            _1c+="/>";
-        }else{
-            if(this.getAttribute("doExpressInstall")){this.addVariable("MMplayerType","ActiveX");}
-            _1c="<object class=\"embed-responsive-item\" id=\""+this.getAttribute("id")+"\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\""+this.getAttribute("width")+"\" height=\""+this.getAttribute("height")+"\">";
-            _1c+="<param name=\"movie\" value=\""+this.getAttribute("swf")+"\" />";
-            var _20=this.getParams();
-            for(var key in _20){_1c+="<param name=\""+key+"\" value=\""+_20[key]+"\" />";}
-            var _22=this.getVariablePairs().join("&");
-            if(_22.length>0){_1c+="<param name=\"flashvars\" value=\""+_22+"\" />";
-            }_1c+="</object>";}
-        return _1c;
-    },write:function(_23){
-        if(this.useExpressInstall){
-            var _24=new com.deconcept.PlayerVersion([6,0,65]);
-            if(this.installedVer.versionIsValid(_24)&&!this.installedVer.versionIsValid(this.getAttribute("version"))){
-                this.setAttribute("doExpressInstall",true);
-                this.addVariable("MMredirectURL",escape(this.getAttribute("xiRedirectUrl")));
-                document.title=document.title.slice(0,47)+" - Flash Player Installation";
-                this.addVariable("MMdoctitle",document.title);}
-        }else{this.setAttribute("doExpressInstall",false);}
-        if(this.skipDetect||this.getAttribute("doExpressInstall")||this.installedVer.versionIsValid(this.getAttribute("version"))){
-            var n=(typeof _23=="string")?document.getElementById(_23):_23;
-            n.innerHTML=this.getFlashHTML();
-        }else{if(this.getAttribute("redirectUrl")!=""){document.location.replace(this.getAttribute("redirectUrl"));}}}};
-    com.deconcept.FlashObjectUtil.getPlayerVersion=function(_26,_27){
-        var _28=new com.deconcept.PlayerVersion(0,0,0);
-        if(navigator.plugins&&navigator.mimeTypes.length){
-            var x=navigator.plugins["Shockwave Flash"];
-            if(x&&x.description){_28=new com.deconcept.PlayerVersion(x.description.replace(/([a-z]|[A-Z]|\s)+/,"").replace(/(\s+r|\s+b[0-9]+)/,".").split("."));}
-        }else{
-            try{var axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
-                for(var i=3;axo!=null;i++){
-                    axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+i);
-                    _28=new com.deconcept.PlayerVersion([i,0,0]);}}
-            catch(e){}
-            if(_26&&_28.major>_26.major){return _28;}
-            if(!_26||((_26.minor!=0||_26.rev!=0)&&_28.major==_26.major)||_28.major!=6||_27){
-                try{
-                    _28=new com.deconcept.PlayerVersion(axo.GetVariable("$version").split(" ")[1].split(","));
-                }catch(e){}}}
-        return _28;
-    };
-    com.deconcept.PlayerVersion=function(_2c){
-        this.major=parseInt(_2c[0])||0;
-        this.minor=parseInt(_2c[1])||0;
-        this.rev=parseInt(_2c[2])||0;
-    };
-    com.deconcept.PlayerVersion.prototype.versionIsValid=function(fv){
-        if(this.major<fv.major){return false;}
-        if(this.major>fv.major){return true;}
-        if(this.minor<fv.minor){return false;}
-        if(this.minor>fv.minor){return true;}
-        if(this.rev<fv.rev){return false;}
-        return true;
-    };
-    com.deconcept.util={getRequestParameter:function(_2e){
-        var q=document.location.search||document.location.hash;
-        if(q){var _30=q.indexOf(_2e+"=");
-            var _31=(q.indexOf("&",_30)>-1)?q.indexOf("&",_30):q.length;
-            if(q.length>1&&_30>-1){
-                return q.substring(q.indexOf("=",_30)+1,_31);}}return "";
-    },removeChildren:function(n){
-        while(n.hasChildNodes()){
-            n.removeChild(n.firstChild);}}};
-    if(Array.prototype.push==null){
-        Array.prototype.push=function(_33){
-            this[this.length]=_33;
-            return this.length;};}
-    var getQueryParamValue=com.deconcept.util.getRequestParameter;
-    var FlashObject=com.deconcept.FlashObject;
-    function move_menu(num)
-    {
-        switch(num)
-
-        {
-
-            case 1:window.location="gr-listings.htm" ;break;
-
-            case 2:window.location="services" ;break;
-
-            case 3:window.location="aboutus" ;break;
-
-        }
-    }
 
 
-    var fo = new FlashObject("swf/index.swf", "index", "615", "289", "7");
-    fo.addParam("wmode", "transparent");
-    fo.addParam("quality", "high");
-    fo.addParam("scale", "noscale");
-    fo.write("flashcontent");
+
+  	// Make Content Visible
+  	jQuery(".fullwidthbanner ul , .fullscreenbanner ul").removeClass('hide');
+
+    if(jQuery(".tp-banner").length > 0) {
+      jQuery('.tp-banner').revolution(
+                {
+                  delay:15000,
+                  startwidth:1170,
+                  startheight:500,
+                  hideThumbs:10,
+                  fullWidth:"off",
+                  fullScreen:"on",
+                  fullScreenOffsetContainer: ""
+                });
+      }
+
+
+  	// /**
+  	// 	@HALFSCREEN SLIDER
+  	// **/
+  	// if(jQuery(".fullwidthbanner").length > 0) {
+    //
+  	// 	// Default Thumbs [small]
+  	// 	var thumbWidth 			= 100,
+  	// 		thumbHeight 		= 50,
+  	// 		hideThumbs			= 200,
+  	// 		navigationType		= "bullet",
+  	// 		navigationArrows	= "solo",
+  	// 		navigationVOffset	= 10;
+    //
+  	// 	// Shadow
+  	// 	_shadow = jQuery(".fullwidthbanner").attr('data-shadow') || 0;
+    //
+  	// 	// Small Thumbnails
+  	// 	if(jQuery(".fullwidthbanner").hasClass('thumb-small')) {
+  	// 		var navigationType 		= "thumb";
+  	// 	}
+    //
+  	// 	// Large Thumbnails
+  	// 	if(jQuery(".fullwidthbanner").hasClass('thumb-large')) {
+  	// 		var navigationType 		= "thumb";
+  	// 			thumbWidth 			= 195,
+  	// 			thumbHeight 		= 95,
+  	// 			hideThumbs			= 0,
+  	// 			navigationArrows	= "solo",
+  	// 			navigationVOffset	= -94;
+    //
+  	// 			// Hide thumbs on mobile - Avoid gaps
+  	// 			/**
+  	// 			if(jQuery(window).width() < 800) {
+  	// 				setTimeout(function() {
+  	// 					var navigationVOffset = 10;
+  	// 					jQuery("div.tp-thumbs").addClass('hidden');
+  	// 				}, 100);
+  	// 			}
+  	// 			**/
+  	// 	}
+    //
+  	// 	// Init Revolution Slider
+  	// 	revapi = jQuery('.fullwidthbanner').revolution({
+  	// 		dottedOverlay:"none",
+  	// 		delay:9000,
+  	// 		startwidth:1170,
+  	// 		startheight: jQuery(".fullwidthbanner").attr('data-height') || 500,
+  	// 		hideThumbs:hideThumbs,
+    //
+  	// 		thumbWidth:thumbWidth,
+  	// 		thumbHeight:thumbHeight,
+  	// 		thumbAmount: parseInt(jQuery(".fullwidthbanner ul li").length) || 2,
+    //
+  	// 		navigationType:navigationType,
+  	// 		navigationArrows:navigationArrows,
+  	// 		navigationStyle:jQuery('.fullwidthbanner').attr('data-navigationStyle') || "round", // round,square,navbar,round-old,square-old,navbar-old (see docu - choose between 50+ different item)
+    //
+  	// 		touchenabled:"on",
+  	// 		onHoverStop:"on",
+    //
+  	// 		navigationHAlign:"center",
+  	// 		navigationVAlign:"bottom",
+  	// 		navigationHOffset:0,
+  	// 		navigationVOffset:navigationVOffset,
+    //
+  	// 		soloArrowLeftHalign:"left",
+  	// 		soloArrowLeftValign:"center",
+  	// 		soloArrowLeftHOffset:20,
+  	// 		soloArrowLeftVOffset:0,
+    //
+  	// 		soloArrowRightHalign:"right",
+  	// 		soloArrowRightValign:"center",
+  	// 		soloArrowRightHOffset:20,
+  	// 		soloArrowRightVOffset:0,
+    //
+  	// 		parallax:"mouse",
+  	// 		parallaxBgFreeze:"on",
+  	// 		parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+    //
+  	// 		shadow: parseInt(_shadow),
+  	// 		fullWidth:"on",
+  	// 		fullScreen:"off",
+    //
+  	// 		stopLoop:"off",
+  	// 		stopAfterLoops:-1,
+  	// 		stopAtSlide:-1,
+    //
+  	// 		spinner:"spinner0",
+  	// 		shuffle:"off",
+    //
+  	// 		autoHeight:"off",
+  	// 		forceFullWidth:"off",
+    //
+  	// 		hideThumbsOnMobile:"off",
+  	// 		hideBulletsOnMobile:"on",
+  	// 		hideArrowsOnMobile:"on",
+  	// 		hideThumbsUnderResolution:0,
+    //
+  	// 		hideSliderAtLimit:0,
+  	// 		hideCaptionAtLimit:768,
+  	// 		hideAllCaptionAtLilmit:0,
+  	// 		startWithSlide:0,
+  	// 		fullScreenOffsetContainer: ""
+  	// 	});
+    //
+  	// 	// Used by styleswitcher onle - delete this on production!
+  	// 	jQuery("#is_wide, #is_boxed").bind("click", function() { revapi.revredraw(); });
+  	// }
+    //
+    //
+  	// /**
+  	// 	@FULLSCREEN SLIDER
+  	// **/
+  	// if(jQuery(".fullscreenbanner").length > 0) {
+    //
+  	// 	var tpj=jQuery;
+  	// 	tpj.noConflict();
+  	// 	var revapi25;
+    //
+  	// 	// Shadow
+  	// 	_shadow = jQuery(".fullscreenbanner").attr('data-shadow') || 0;
+    //
+  	// 	tpj(document).ready(function() {
+    //
+  	// 		if(tpj('.fullscreenbanner').revolution != undefined) {
+  	// 			revapi25 = tpj('.fullscreenbanner').show().revolution({
+  	// 				dottedOverlay:"none",
+  	// 				delay:9000,
+  	// 				startwidth:1200,
+  	// 				startheight:700,
+  	// 				hideThumbs:10,
+    //
+  	// 				thumbWidth:100,
+  	// 				thumbHeight:50,
+  	// 				thumbAmount:4,
+    //
+  	// 				navigationType:"none",
+  	// 				navigationArrows:"solo",
+  	// 				navigationStyle:jQuery('.fullscreenbanner').attr('data-navigationStyle') || "round",
+    //
+  	// 				touchenabled:"on",
+  	// 				onHoverStop:"on",
+    //
+  	// 				swipe_velocity: 0.7,
+  	// 				swipe_min_touches: 1,
+  	// 				swipe_max_touches: 1,
+  	// 				drag_block_vertical: false,
+    //
+  	// 				keyboardNavigation:"on",
+    //
+  	// 				navigationHAlign:"center",
+  	// 				navigationVAlign:"bottom",
+  	// 				navigationHOffset:0,
+  	// 				navigationVOffset:30,
+    //
+  	// 				soloArrowLeftHalign:"left",
+  	// 				soloArrowLeftValign:"center",
+  	// 				soloArrowLeftHOffset:20,
+  	// 				soloArrowLeftVOffset:0,
+    //
+  	// 				soloArrowRightHalign:"right",
+  	// 				soloArrowRightValign:"center",
+  	// 				soloArrowRightHOffset:20,
+  	// 				soloArrowRightVOffset:0,
+    //
+  	// 				parallax:"mouse",
+  	// 				parallaxBgFreeze:"on",
+  	// 				parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+    //
+  	// 				shadow: parseInt(_shadow),
+  	// 				fullWidth:"off",
+  	// 				fullScreen:"on",
+    //
+  	// 				stopLoop:"off",
+  	// 				stopAfterLoops:-1,
+  	// 				stopAtSlide:-1,
+    //
+  	// 				shuffle:"off",
+    //
+  	// 				forceFullWidth:"off",
+  	// 				fullScreenAlignForce:"off",
+    //
+  	// 				hideThumbsOnMobile:"off",
+  	// 				hideBulletsOnMobile:"on",
+  	// 				hideArrowsOnMobile:"off",
+  	// 				hideThumbsUnderResolution:0,
+    //
+  	// 				hideSliderAtLimit:0,
+  	// 				hideCaptionAtLimit:768,
+  	// 				hideAllCaptionAtLilmit:0,
+  	// 				startWithSlide:0,
+  	// 				fullScreenOffsetContainer: jQuery("#header").hasClass('transparent') || jQuery("#header").hasClass('translucent') ? null : "#header"
+  	// 			});
+    //
+  	// 		}
+  	// 	});	//ready
+    //
+  	// }
+    //
+    //
+  	// /**
+  	// 	@KEN BURNS
+  	// **/
+  	// if(jQuery(".fullscreenbanner.ken-burns").length > 0) {
+    //
+  	// 	revapi = jQuery('.fullwidthbanner').revolution({
+  	// 		dottedOverlay:"none",
+  	// 		delay:9000,
+  	// 		startwidth:1170,
+  	// 		startheight:400,
+  	// 		hideThumbs:200,
+    //
+  	// 		thumbWidth:100,
+  	// 		thumbHeight:50,
+  	// 		thumbAmount:5,
+    //
+  	// 		navigationType:"bullet",
+  	// 		navigationArrows:"solo",
+  	// 		navigationStyle:jQuery('.fullwidthbanner').attr('data-navigationStyle') || "round",
+    //
+  	// 		touchenabled:"on",
+  	// 		onHoverStop:"off",
+    //
+  	// 		navigationHAlign:"center",
+  	// 		navigationVAlign:"bottom",
+  	// 		navigationHOffset:0,
+  	// 		navigationVOffset:10,
+    //
+  	// 		soloArrowLeftHalign:"left",
+  	// 		soloArrowLeftValign:"center",
+  	// 		soloArrowLeftHOffset:20,
+  	// 		soloArrowLeftVOffset:0,
+    //
+  	// 		soloArrowRightHalign:"right",
+  	// 		soloArrowRightValign:"center",
+  	// 		soloArrowRightHOffset:20,
+  	// 		soloArrowRightVOffset:0,
+    //
+  	// 		shadow:0,
+  	// 		fullWidth:"on",
+  	// 		fullScreen:"off",
+    //
+  	// 		stopLoop:"off",
+  	// 		stopAfterLoops:-1,
+  	// 		stopAtSlide:-1,
+    //
+    //
+  	// 		shuffle:"off",
+    //
+  	// 		autoHeight:"off",
+  	// 		forceFullWidth:"off",
+    //
+  	// 		hideThumbsOnMobile:"off",
+  	// 		hideBulletsOnMobile:"off",
+  	// 		hideArrowsOnMobile:"off",
+  	// 		hideThumbsUnderResolution:0,
+    //
+  	// 		hideSliderAtLimit:0,
+  	// 		hideCaptionAtLimit:0,
+  	// 		hideAllCaptionAtLilmit:0,
+  	// 		startWithSlide:0,
+  	// 		fullScreenOffsetContainer: ""
+  	// 	});
+    //
+  	// 	// Used by styleswitcher only - delete this on production!
+  	// 	jQuery("#is_wide, #is_boxed").bind("click", function() { revapi.revredraw(); });
+    //
+  	// }
+
+
 };
 
-Template.homeIndex.onCreated(
-    function move_menu(num) {
-        switch(num){
-        case 1:window.location="gr-listings.htm" ;break;
-        case 2:window.location="services.htm" ;break;
-        case 3:window.location="aboutus.htm" ;break;
-        }
-    }
-);
+
+
+
 Template.homeIndex.events({
     'click': function(){
         console.log("You clicked the flash");
-        move_menu();
+
     }
 });
 
 Template.homeIndex.helpers({
 
-})
-
-move_menu = function(num) {
-    switch(num){
-    case 1:window.location="listings" ;break;
-    case 2:window.location="services" ;break;
-    case 3:window.location="aboutus" ;break;
-    }
-}
+});

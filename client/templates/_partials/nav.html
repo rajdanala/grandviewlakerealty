@@ -1,6 +1,28 @@
   <template name="nav">
+    <div id="header" class="sticky clearfix">
+    <header id="topNav">
+    <div class="container">
+      <!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
 
-     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <a class="logo pull-left" href="">
+							<img src="/images/grandviewrealty-logo.jpg" alt="" />
+						</a>
+    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+  							<nav class="nav-main">
+                    <ul id="topMain" class="nav nav-pills nav-main">
+                        {{#each menus}}
+                      <li  class="dropdown active"><a class="dropdown-toggle"  href="{{pathFor 'homePage' menu = this.seourl}}">{{menu}}</a> </li>
+                          {{/each}}
+                    </ul>
+                </nav>
+    </div>
+  </div>
+</header>
+</div>
+     <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,5 +44,5 @@
 
         </div>
       </div>
-    </nav>
+    </nav> -->
 </template>
